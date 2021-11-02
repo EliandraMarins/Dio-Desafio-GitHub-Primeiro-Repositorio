@@ -1,0 +1,39 @@
+## Comandos Essenciais do Git/GitHub
+
+### Git
+
+Listar diretórios - dir
+Change directory - navegar entre pastas - cd /
+Change directory pra lugar específico (ex windows) - cd Windows
+Retroceder 1 nível de navegação - cd ..
+Limpar o terminal - cls
+Criar uma pasta + nomex(exemplo workspace)- mkdir workspace
+Printar no terminal + o que você quer printado- echo hello
+criar arquivo- echo > hello.txt
+deletar aquivos- del workspace (deleta tudo que tá dentro, mas não ela)
+deletar todo o diretório- rmdir workspace /S /Q
+Inicializar o git - git initgit pull
+Copiar diretório: git clone + http code
+Ver aquivos ocultos - ls -a 
+Configurar a primeira vez de uso -git config --global user.email "*emailaqui*" - $ git config --global user.name *nomeaqui*
+Colocar outras configurações: $ git config --global --unset user.name
+
+mover um arquivo - mv *nomedoarquivo* ./*localquequermover*/
+
+Mover arquivos git init:
+Fazer o versionamento git add *: (pega tudo que foi modificado)
+git add nomedoarquivo pastanova/ (ex:git add Estrogonofe.md receitas/)(pega somente as edições listadas) 
+Dar o commit - git commit -m "nomedocommit":
+Ver o status - git status
+
+Atalhos: 
+Tab: autocompletar
+Seta pra cima: histórico de comandos
+
+### GitHub
+
+git remote add origin urldocaminho
+levar repositório local para o remoto - git push origin master
+pegar repositorio remoto para att o local - git pull origin master
+
+clonar um repositório - git clone urldorepositorio
