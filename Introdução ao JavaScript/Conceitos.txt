@@ -1,0 +1,24 @@
+# Conceitos Importantes:
+
+#### Currying:
+
+
+
+#### Hoisting:
+
+
+
+#### Imutabilidade:
+
+
+
+#### Tipos:
+
+
+
+#### Variáveis:
+
+
+
+
+
