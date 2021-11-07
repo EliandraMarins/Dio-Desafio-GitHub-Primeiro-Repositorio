@@ -1,24 +1,23 @@
 # Conceitos Importantes:
+JavaScript Intermediário:
 
 #### Currying:
 
-
-
 #### Hoisting:
-
-
 
 #### Imutabilidade:
 
-
-
 #### Tipos:
-
-
 
 #### Variáveis:
 
+javaScript Iniciante:
 
+####Variáveis
+
+####Array e dicionário
+
+####Condicionais, laços de repetição e data
 
 
 
