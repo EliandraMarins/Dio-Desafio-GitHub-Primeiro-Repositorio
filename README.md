@@ -3,7 +3,9 @@ Dia 02/11 - Primeiro desafio do bootcamp DIO eduzz fullstack developer. Projeto 
 
 Dia 03/11 - Módulo sobre HTML e CSS - Atividade prática
 
-Dia 04/11 - Introdução ao Javascript
+Dia 04/11 - Javascript - Intermediário
+
+Dia 07/11 - Javascript - Iniciante
 
 ### Links Úteis:
 [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)<br>
