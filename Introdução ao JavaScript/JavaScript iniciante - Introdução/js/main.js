@@ -77,5 +77,60 @@ alert(d.getHours()); //Mostra a hora
 */
 
 
+//Trabalhando com funções
 
+/*function soma(n1,n2){
 
+    return n1 + n2;
+
+}
+function setReplace(frase,nome,novo_nome){
+    return frase.replace(nome, novo_nome)
+
+}
+
+alert(soma(5,10)); //Esse alert chama a função soma e atribui valores a n1 e n2
+alert(setReplace("Vai Japão", "Japão","Brasil"));
+*/
+
+/*function validaIdade(idade){
+    var validar;
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+    var idade = prompt("Qual a sua idade?");
+    console.log(validaIdade(idade)); */
+
+    function clicou(){
+document.getElementById('agradecimento').innerHTML = "<b>Obrigada por clicar</b>";//InnerHTML Insere um texto
+console.log(document.getElementById('agradecimento'));    
+
+}
+
+function redirecionar(){
+    window.open("https://globallab.org/en/#.YYz_rWDMJPY"); //Abre na mesma janela
+   // window.location.href = "https://globallab.org/en/#.YYz_rWDMJPY"; //Abre na mesma janela
+}
+
+function trocar(elemento){
+    //document.getElementById('mousemove'). innerHTML = "Obrigada por passar o mouse"; //um ID
+    elemento.innerHTML = "Obrigada por passar o mouse"; //Para utilizar esses parâmetros em mais de um ID ou sem ID
+    //alert("Trocar texto");
+} //Quando passa o mouse troca a mensagem
+
+function voltar(elemento){
+    //document.getElementById('mousemove'). innerHTML = "Passe o mouse aqui"; //um ID
+    elemento.innerHTML="Passe o mouse aqui"; //Para utilizar esses parâmetros em mais de um Id ou sem ID
+} //Função para voltar ao que era quando tira o mouse
+
+function load(){
+    alert("Pagina carregada");
+}
+
+function funcaochange(elemento){
+    console.log(elemento.value)
+} //utilizando o select onchange sempre pega o valor que está sendo selecionado
