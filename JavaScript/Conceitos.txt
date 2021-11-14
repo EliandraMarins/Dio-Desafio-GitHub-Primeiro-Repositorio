@@ -1,4 +1,5 @@
 # Conceitos Importantes:
+
 JavaScript Intermediário:
 
 #### Currying:
@@ -19,5 +20,6 @@ javaScript Iniciante:
 
 ####Condicionais, laços de repetição e data
 
-
+Diferença entre variável global e local:
+A variável local é declarada dentro de uma função, enquanto a variável global é declarada fora da função e pode ser usada dentro da função
 
